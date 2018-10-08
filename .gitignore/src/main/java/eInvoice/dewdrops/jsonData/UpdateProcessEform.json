@@ -1,0 +1,12 @@
+{
+"businessEntity": [
+{
+"header": { "trackingNumber": "123458yye", "locale": null, "info1": null, "info2": null } 
+,
+"entityData": 
+{ "processEformId": "402882e5-50654635-0150-654d350e-00d4", "name": "sarath1", "description": "sAS", "processCode": "EINVOICE", "status": 0, "dynamicFormId": "402882e5-4b9c9c8d-014b-9d4a14b7-004f", "type": 0, "updated": "true", "parentProcessEformId": "402882e5-4b9c9c8d-014b-9d4a154b-0050" } 
+,
+"processingErrors": null
+}
+]
+} 

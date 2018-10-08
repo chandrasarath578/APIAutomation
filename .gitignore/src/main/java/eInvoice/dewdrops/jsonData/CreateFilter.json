@@ -1,0 +1,13 @@
+{
+"businessEntity": [
+{
+"header": { "trackingNumber": "1234", "locale": null, "info1": null, "info2": null }
+,
+"entityData":
+
+{ "filterId": "4028813a", "tenantId": "def68304", "userId": "1dcacee3", "pageName": "invoiceListing", "filterName": "zin55hg", "isDefault": "true", "advancedFilters": null, "filters": "[\"inum=\"]", "sortColumn": -1, "sortType": null, "displayRecords": 100, "createdOn": 1531210232326 }
+,
+"processingErrors": null
+}
+]
+}

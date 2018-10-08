@@ -1,0 +1,26 @@
+{
+  "trackingNumber": "Track -1",
+  "pagination": {
+    "maxRows": 10,
+    "pageNumber": 1
+  },
+  "sortConditions": [
+    {
+      "fieldName": "SORT_BY_NAME",
+      "direction": "ASC"
+    }
+  ],
+  "criteriaGroup": {
+    "logicalOperator": "AND",
+    "criteria": [
+      {
+        "fieldName": "SEARCH_BY_NAME",
+        "operation": "EQUALS",
+        "value": "FATCOOK",
+        "minValue": 0,
+        "maxValue": 0
+      }
+    ]
+  },
+  "locale": "EN-US"
+}

@@ -1,0 +1,36 @@
+{
+"trackingNumber": "Track -1",
+"info1": "1",
+"info2": "1",
+"pagination":
+
+{ "maxRows": 4, "pageNumber": 1 }
+,
+"sortConditions": [
+
+{ "fieldName": "createdOn", "direction": "ASC" }
+],
+"criteriaGroup": {
+"logicalOperator": "OR",
+"criteriaGroup": [
+{
+"logicalOperator": "AND",
+"criteria": [
+	{ 
+"fieldName":"supplierName", 
+"operation":"EQUALS", 
+"value":"FAT COOK", 
+"minValue":0, 
+"maxValue":0 
+},
+
+{ "fieldName":"docType", "operation":"EQUALS", "value":4, "minValue":0, "maxValue":0 }
+
+
+]
+}
+
+]
+},
+"locale": "EN-US"
+}

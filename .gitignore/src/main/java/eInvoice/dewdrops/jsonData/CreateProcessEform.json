@@ -1,0 +1,12 @@
+{
+"businessEntity": [
+{
+"header": { "trackingNumber": "123458yye", "locale": null, "info1": null, "info2": null } 
+,
+"entityData": 
+{ "processEformId": "", "name": "Test", "description": "Desc1", "processCode": "EINVOICE", "status":0, "dynamicFormId": "", "type": 1, "updated": "true", "parentProcessEformId": "" } 
+,
+"processingErrors": null
+}
+]
+} 

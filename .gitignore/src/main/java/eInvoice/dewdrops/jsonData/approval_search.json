@@ -1,0 +1,41 @@
+{
+  "trackingNumber": "Track -1",
+  "info1": "1",
+  "info2": "1",
+  "pagination": {
+    "totalRecords": 1000,
+    "maxRows": 20,
+    "pageNumber": 1
+  },
+  "sortConditions": [
+    {
+      "fieldName": "receivedOn",
+      "direction": "ASC"
+    }
+  ],
+  "criteriaGroup": {
+    "logicalOperator": "AND",
+    "criteriaGroup": [
+      {
+        "logicalOperator": "AND",
+        "criteria": [
+          {
+            "fieldName": "processCode",
+            "operation": "EQUALS",
+            "value": "INVOICE_TEMPLATE",
+            "minValue": 0,
+            "maxValue": 0
+          },
+          {
+            "fieldName": "entityUrgent",
+            "operation": "EQUALS",
+            "value": "false",
+            "minValue": 0,
+            "maxValue": 0
+          }
+        ]
+      }
+    ]
+  },
+  "locale": "EN-US"
+}

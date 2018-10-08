@@ -1,0 +1,20 @@
+{
+  "businessEntity": [
+    {
+      "header": {
+        "trackingNumber": "222",
+        "locale": null,
+        "info1": null,
+        "info2": null
+      },
+      "entityData": {
+        "adminRequestedAction": "false",
+        "roletype": "GLOBAL_APPROVER",
+        "approvalLastModifiedOn": "1520958748796",
+        "comments": "testing delegate WF approval API",
+        "delegatedUserId": "3b162d0c-0414-4b51-bb22-06696dbf22f3"
+      },
+      "processingErrors": null
+    }
+  ]
+}

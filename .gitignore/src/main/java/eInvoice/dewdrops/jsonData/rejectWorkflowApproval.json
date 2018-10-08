@@ -1,0 +1,9 @@
+{"businessEntity": [{"header": {"trackingNumber": "1", "locale": null, "info1": null, "info2": null } 
+,
+"entityData": 
+{ "adminRequestedAction" : "false", "roletype" : "GLOBAL_APPROVER", "approvalLastModifiedOn" : "1520958748796", "comments" : "testing reject WF approval API" } 
+,
+"processingErrors": null
+}
+]
+}

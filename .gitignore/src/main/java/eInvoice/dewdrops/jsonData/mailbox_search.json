@@ -1,0 +1,36 @@
+{ 
+   "trackingNumber":"Track -1", 
+   "info1":"1", 
+   "info2":"1", 
+   "pagination":{ 
+      "maxRows":10, 
+      "pageNumber":1 
+   }, 
+   "sortConditions":[ 
+      { 
+         "fieldName":"createdOn", 
+         "direction":"DESC" 
+      } 
+   ], 
+   "criteriaGroup":{ 
+      "logicalOperator":"AND", 
+
+"criteriaGroup":[ 
+{ 
+"logicalOperator":"AND", 
+"criteria":[ 
+{ 
+"fieldName":"invoiceNumber", 
+"operation":"EQUALS", 
+"value":"cm6546456tegfgf", 
+"minValue":0, 
+"maxValue":0 
+}
+
+] 
+} 
+] 
+   }, 
+   "locale":"EN-US" 
+} 
+ 

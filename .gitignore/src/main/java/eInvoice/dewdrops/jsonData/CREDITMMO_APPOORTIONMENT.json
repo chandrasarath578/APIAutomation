@@ -1,0 +1,50 @@
+
+
+
+{
+"IntegrationEntities": {
+"integrationEntity": [{
+"integrationEntityHeader":
+{ "integrationTrackingNumber": "457", "referenceCodeForEntity": "PA" } 
+,
+"integrationEntityDetails": {
+ "creditMemoApportionment": 
+{ "creditMemoId":"12312313", "isUniqueId": true, "apportionedAmount":500 } 
+}
+}]
+}
+} 
+ 
+
+ 
+ 
+//Response for alreday aportioned Credimemo
+
+responseBody-->: {
+  "IntegrationEntities": {
+    "integrationEntity": [
+      {
+        "integrationEntityHeader": {
+          "integrationTrackingNumber": "457",
+          "referenceCodeForEntity": "PA"
+        },
+        "integrationEntityDetails": {
+          "acknowledgement": {
+            "id": "12312264qwerty",
+            "eventId": "12312264qwerty",
+            "externalId": "12312264qwerty",
+            "status": "FAILED"
+          }
+        },
+        "processingErrors": {
+          "error": [
+            {
+              "errorCode": "ALREADY_APPORTIONED",
+              "errorDescription": "Credit Memo is already fully apportioned."
+            }
+          ]
+        }
+      }
+    ]
+  }
+}
